@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+
+font-size: 90px;
+}
+#admin-page {
+
+background-color: brown;
+
+text-align: center;
+
+width: 60%;
+
+margin: auto;
+
+padding: 40px;
+
+text-transform: uppercase;
+}
+form {
+}
+input {
+    
+width: 100%;
+    
+padding: 10px;
+}
+input[type="submit"] {
+    background-color: red;
+    width: 200px;
+    transition: 0.2s;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    color: cadetblue;
+}
+#admin-page h1::first-letter {
+    font-size: 150px;
+}
+input::placeholder {
+    color: darkgreen;
+}
+.pp {
+    text-align: center;
+    font-size: 70px;
+    color: darkmagenta;
+}
+#po {
+    text-align: center;
+}
